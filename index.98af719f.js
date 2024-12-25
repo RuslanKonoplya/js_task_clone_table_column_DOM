@@ -1,0 +1,2 @@
+var t=document.querySelector("table"),e=document.createElement("th");e.textContent=t.querySelectorAll("thead tr th")[1].textContent,t.querySelectorAll("thead tr th")[3].after(e),t.querySelectorAll("tbody tr").forEach(function(t){var e=document.createElement("td");e.textContent=t.cells[1].textContent,t.cells[3].after(e)});var r=document.createElement("th");r.textContent=t.querySelectorAll("tfoot tr th")[1].textContent,t.querySelectorAll("tfoot tr th")[3].after(r);
+//# sourceMappingURL=index.98af719f.js.map
